@@ -1,9 +1,12 @@
 import sys
-
+import lib
 
 def main(args=None):
-    print('This is the main.')
+    firstPlayer = lib.createPlayer()
+    secondPlayer = lib.createPlayer()
 
+    print(firstPlayer)
+    print(secondPlayer)
 
 if __name__ == '__main__':
     main(sys.argv[1:])
